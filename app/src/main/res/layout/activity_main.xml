@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.example.jatinderkumar.webimpl1.MainActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/btn1"
+        android:onClick="web"
+        android:text="Opening a WebPage"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/btn2"
+        android:text=" Phone call"
+        android:onClick="phone"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/btn3"
+        android:onClick="mapp"
+        android:text="Map Open"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/btn4"
+        android:onClick="cam"
+        android:text="Image Capture"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:layout_width="200sp"
+        android:layout_height="200sp"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/colorPrimaryDark"
+        android:id="@+id/img1" />
+
+</LinearLayout>
